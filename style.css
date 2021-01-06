@@ -3,10 +3,13 @@ body{
     margin: 0px;
 }
 .tex-highlighter{
-    color: orange;
+    color: #FF8367;
 }
 h1{
     font-size: 50px;
+}
+#hello-head{
+    color: #363958;
 }
 p{
     color: dimgray;
@@ -22,7 +25,7 @@ p{
 }
 .a-modify{
     text-decoration: none;
-    background-image: linear-gradient(45deg, orange, tomato);
+    background-image: linear-gradient(45deg, #FC7762, #F86B61);
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
@@ -66,13 +69,13 @@ footer{
     color: dimgray;
 }
 .lowest-heading{
-    color: rgb(54, 45, 45);
+    color: #363958;
     font-weight: 700;
 }
 #footer-link{
     text-decoration: none;
     font-size: 30px;
-    color: gray;
+    color: #363958;
 }
 footer > span{
     font-size: 20px;
@@ -96,4 +99,17 @@ footer > span{
 }
 footer{
     margin-bottom: 70px;
+}
+.identity{
+    width: 60%;
+    height: 100px;
+}
+.bouns-head{
+    color: white;
+}
+.bonus-sec{
+    background-image: linear-gradient(45deg, #007ACC, #1E1E1E);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
 }
