@@ -44,12 +44,56 @@ p{
     padding-right: 10%; 
 }
 .last-sec{
+    background-color: white;
+    margin-top: 500px;
+    margin-bottom: 100px;
+}
+.last-div{
     background-image: url(shapes/background.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 60%;
+    height: 200px;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px;
 }
 footer{
     text-align: center;
     color: dimgray;
+}
+.lowest-heading{
+    color: rgb(54, 45, 45);
+    font-weight: 700;
+}
+#footer-link{
+    text-decoration: none;
+    font-size: 30px;
+    color: gray;
+}
+footer > span{
+    font-size: 20px;
+}
+.experiance-head{
+    color: #363958;
+    line-height: 20px;
+}
+.icons{
+    height: 40px;
+    width: 40px;
+}
+.social-sec{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin: auto;
+}
+#inquiry-head{
+    color: white;
+}
+footer{
+    margin-bottom: 70px;
 }
